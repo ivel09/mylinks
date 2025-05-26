@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#fondo{
+    border: solid 0.5;
+    background-image:url("images/imagen1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 15rem;
+    min-height: 90rem;
+   
+}
+#logo{
+    width: 21rem;
+    min-height: 20rem;
+    border-radius: 2rem;
+    background-image: url( "images/cap2.png" );
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 35%;
+  
+}
+main{
+    height: 50rem;
+}
+section>h1{
+    text-align: center;
+    margin: 1.5rem;
+    font-size: 3.5rem;
+}
+section>h4{
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 2.2rem;
+    font-weight: 500;
+
+}
+main>section>button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    width: 90%;
+    margin-left: 3rem;
+    padding: 2.5rem;
+    background-color:skyblue;
+    font-size: 2.5rem;
+    border-radius: 1.5rem;
+    border: none;
+   
+    
+    
+}
