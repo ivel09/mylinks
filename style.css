@@ -52,3 +52,15 @@ main>section>button{
     
     
 }
+@media (min-width: 1000px){
+    #fondo{
+        
+        background-image: url(images/cap2.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+
+
+
+}
