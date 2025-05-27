@@ -1,0 +1,139 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+main{
+    background-color: #FFFDF6;
+    
+
+}
+#image{
+    
+    background-image: url(images/avicii.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    width: 100%;
+    min-height: 18rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+section>h1{
+    padding-top: 2rem;
+    text-align: center;
+    font-size: 2.3rem;
+}
+section>p{
+
+    margin-top: 1.5rem;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #015551;
+    
+}
+
+
+#padre{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    border-radius: 0.6rem;
+    background-color: aliceblue;
+    margin-left: 2.5rem;font-size: 1.2rem;
+
+}
+#logo{
+    background-image: url(images/dos.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1.7rem;
+    height: 1.8rem;
+    
+    margin-right: 2.5rem;
+
+}
+h4{
+    font-weight: 400;
+     
+    color: grey;
+
+    
+}
+#padre>h5{
+    color: purple;
+    margin-left: 1.5rem;
+    text-decoration-line: underline;
+}
+button{
+    font-size: 1.2rem;
+    padding: 0.8rem;
+    background-color: purple;
+    color: white;
+    border-radius: 0.7rem;
+    border: none;
+    margin-left: 2.5rem;
+    margin-top: 2.5rem;
+    width: 80%;
+
+
+}
+button:hover{
+    background-color: rebeccapurple;
+}
+#fin{
+    text-align: center;
+    margin: 2rem;
+    font-size: 1.1rem;
+    color: grey;
+    padding: 1rem 1rem  2rem 1rem;
+    
+}
+@media only screen and (max-width: 700px) {
+#image{
+    
+    background-image: url(images/dos1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    width: 100%;
+    min-height: 20rem;
+}
+main{
+    width: auto;
+    height: 22rem;
+    
+    
+}
+main>section{
+     background-color: #FFFDF6;
+
+}
+}
+@media only screen and (min-width: 900px) {
+#image{
+    
+    background-image: url(images/dos.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    width: 100%;
+    min-height: 30rem;
+}
+main{
+    width: 40rem;
+    height: auto;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+}
+
